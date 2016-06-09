@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  <title>User register</title>
+  </head>
+  <body>
+    <center>
+      <h2>User register</h2>
+      <div>
+        <table>
+          <form action="register.php" method="post">
+            <tr>
+              <td><label for="nickname">Nickname:</label></td>
+              <td><input type="text" name="nickname"></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="sexo">sexo:</label>
+              </td>
+              <td>
+                <input type ="radio" name="sexo" value="M">M</radio>
+                <input type ="radio" name="sexo" value="F">F</radio>
+                <input type ="radio" name="sexo" value="O">Other</radio> <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password:</label>
+              </td>
+              <td>
+                <input type="password" name="password"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password2">Repetir password:</label>
+              </td>
+              <td>
+                <input type="password" name="password2"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+              </td>
+              <td>
+                <input type="date" name="fecha_nacimiento"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" name="Register">Register</button>
+              </td>
+              <td>
+                <button type="reset" name="clean">Clean</button>
+              </td>
+            </tr>
+        </table>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
