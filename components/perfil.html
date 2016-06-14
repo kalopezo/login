@@ -52,8 +52,11 @@
             </div>
             <div class="row">
               <div class="form-group">
-                <button class="btn btn-primary col-md-2 col-md-offset-4" type="submit">Login</button>
-                <button class="btn btn-default col-md-offset-1 col-md-2" type="reset">Cancel</button>
+                <button class="btn btn-primary col-md-2 col-md-offset-2" type="submit">Login</button>
+                <button class="btn btn-default col-md-offset-2 col-md-2" type="reset">Cancel</button>
+                <div class="col-md-2">
+
+                </div>
               </div>
             </div>
           </form>
@@ -86,16 +89,30 @@
             <br>
         </div>
           <div class="row">
-            <div class="col-md-4 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-1">
               <label for="cargo">Cargo:</label>
               <select name="cargo">
-                <option>Cargo</option>
+                <option>escoja su cargo</option>
                 <option value="programador">Programador</option>
                 <option value="analista">Analista</option>
                 <option value="arquitecto">Arquitecto</option>
               </select>
             </div>
+            <div class="col-md-offset-1 col-md-3">
+              <label for="jefe">Jefe:</label>
+              <select name="jefe">
+                <option value="jefe">Escoja su jefe</option>
+                <option value="Valeria">Valeria</option>
+                <option value="Paco">Paco</option>
+                <option value="Pedro">Pedro</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha_nacimiento">Fecha nacimiento:</label>
+              <input type="data" name="fecha_nacimiento">
+            </div>
           </div>
+          <br>
           <div class="row">
             <div class="form-group">
               <button class="btn btn-primary col-md-2 col-md-offset-4" type="submit">Registrar</button>
